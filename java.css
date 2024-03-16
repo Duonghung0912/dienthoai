@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#banner img{
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+#main_menu {
+    background-color: gray;
+    height: 50px;
+}
+.menu{
+    list-style-type: none;
+    justify-content: center;
+    display: flex;
+    margin: 0px;
+
+}
+.menu li{
+    margin-right: 50px;
+    margin-top: 13px;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.category img{
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+.category li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 250px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+.category li a{
+    text-decoration: none;
+}
+#content{
+    width: 100%;
+    height: 250px;
+}
+#left_bar{
+    width: 40%;
+    height: 100%;
+    box-sizing: border-box;
+    float: left;
+}
+#right_bar{
+    width: 60%;
+    box-sizing: border-box;
+    float: right;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+}
+#right_bar img{
+    width: 60%;
+    height: 100%;
+}
